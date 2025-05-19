@@ -5,11 +5,11 @@ import viteLogo from "/vite.svg";
 import "./index.css";
 import { TypeAnimation } from "react-type-animation";
 import ConfettiButton from "./components/ConfettiButton";
-import ExperienceSection from "./sections/ExperienceSection";
-import ProjectsSection from "./sections/ProjectSection";
 import NavBar from "./components/NavBar";
 import BackToTopButton from "./components/BackToTopButton";
 import BeyondCodeSection from "./sections/BeyondTheCodeSection";
+import ExperienceSection from "./sections/ExperienceSection";
+import ProjectsSection from "./sections/ProjectSection";
 import { motion } from "framer-motion";
 import pfp from "/assets/ronney.JPG";
 

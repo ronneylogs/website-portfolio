@@ -1,10 +1,15 @@
+import dialpadImage from "/assets/logos/dialpad.jpeg";
+import blueprintImage from "/assets/logos/blueprint.jpeg";
+import ubcImage from "/assets/logos/ubc.jpeg";
+import diastolicImage from "/assets/logos/diarobo.jpeg";
+
 export default function ExperienceSection() {
   const experiences = [
     {
       role: "Software Engineer",
       company: "Dialpad",
       date: "Jan 2025 – Present",
-      logo: "/assets/logos/dialpad.jpeg",
+      logo: dialpadImage,
       link: "https://www.linkedin.com/company/dialpad",
       bullets: [
         "Built real-time KPI dashboards to monitor contact center performance",
@@ -16,7 +21,7 @@ export default function ExperienceSection() {
       role: "VP Operations and Senior Developer",
       company: "SFU Blueprint",
       date: "July 2023 – Present",
-      logo: "/assets/logos/blueprint.jpeg",
+      logo: blueprintImage,
       link: "https://www.linkedin.com/company/sfu-blueprint",
       bullets: [
         {
@@ -37,7 +42,7 @@ export default function ExperienceSection() {
       role: "Software Engineer",
       company: "UBC Network & Infrastructure",
       date: "January 2024 – August 2024",
-      logo: "/assets/logos/ubc.jpeg",
+      logo: ubcImage,
       link: "https://www.linkedin.com/school/universityofbc",
       bullets: [
         "Developed a network configuration app using AngularJS, enabling network engineers to efficiently manage devices over 1000+ physical sites",
@@ -48,7 +53,7 @@ export default function ExperienceSection() {
       role: "Software Engineer",
       company: "Diastolic Robotics",
       date: "January 2023 – May 2023",
-      logo: "/assets/logos/diarobo.jpeg",
+      logo: diastolicImage,
       link: "https://www.linkedin.com/company/diastolic-robotics-inc",
       bullets: [
         "Developed a sleep apnea assessment app for iOS and Android",
