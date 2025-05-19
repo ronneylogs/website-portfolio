@@ -25,7 +25,7 @@ export default function Navbar() {
             href="#experiences"
             className="text-gray-700 hover:text-indigo-600"
           >
-            Experience
+            Experiences
           </a>
           <a href="#projects" className="text-gray-700 hover:text-indigo-600">
             Projects
