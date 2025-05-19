@@ -83,7 +83,7 @@ function App() {
               </a>
             </p>
             <p>
-              Now that's out of the way 😊 , I'm currently pursuing the 4th year
+              Now that's out of the way 😊, I'm currently pursuing the 4th year
               of my Computer Science degree at Simon Fraser University. I have
               experience with technologies including Python, Javascript, React,
               Vue, Node.js, and C/C++. Building clean, accessible interfaces as
