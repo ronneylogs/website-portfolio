@@ -11,6 +11,7 @@ import NavBar from "./components/NavBar";
 import BackToTopButton from "./components/BackToTopButton";
 import BeyondCodeSection from "./sections/BeyondTheCodeSection";
 import { motion } from "framer-motion";
+import pfp from "/assets/ronney.JPG";
 
 function App() {
   return (
@@ -58,7 +59,7 @@ function App() {
             className="w-80 h-80 mx-auto overflow-hidden rounded-full "
           >
             <img
-              src="/assets/ronney.JPG"
+              src={pfp}
               alt="Ronney Lok"
               className="w-full h-full object-cover"
             />
