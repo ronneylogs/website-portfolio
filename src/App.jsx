@@ -97,9 +97,16 @@ function App() {
             </p>
 
             <p className="mt-5">
-              Currently seeking Fall 2025 opportunities for both internship and
-              full time roles. Feel free to reach out to me on Linkedin. Looking
-              to grad in December 2026.
+              Currently seeking <span className="font-bold">Fall 2025</span>{" "}
+              software engineering opportunities for both internship and full
+              time roles. Feel free to reach out to me on{" "}
+              <a
+                href="https://www.linkedin.com/in/ronneylok"
+                className="text-blue-600 underline hover:font-bold hover:underline-offset-2"
+              >
+                Linkedin
+              </a>
+              . Looking to grad in December 2026.
             </p>
           </section>
 
