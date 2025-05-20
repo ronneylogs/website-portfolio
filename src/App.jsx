@@ -83,17 +83,23 @@ function App() {
               </a>
             </p>
             <p>
-              Now that's out of the way 😊, I'm currently pursuing the 4th year
-              of my Computer Science degree at Simon Fraser University. I have
-              experience with technologies including Python, Javascript, React,
-              Vue, Node.js, and C/C++. Building clean, accessible interfaces as
-              well as scalable backend systems is my personal ambition and I'm
-              happiest building things for people to{" "}
+              Now that that's out of the way 😊, I'm a 4th-year Computer Science
+              student at Simon Fraser University with hands-on experience in
+              Python, JavaScript, React, Vue, Node.js, and C/C++. I enjoy
+              building clean, accessible interfaces and scalable backend
+              systems, but what drives me most is creating things that people
+              can actually{" "}
               <ConfettiButton
                 className="text-indigo-600 underline hover:font-bold hover:underline-offset-2"
                 label="🎉 Interact"
               />{" "}
-              with.
+              with and enjoy using.
+            </p>
+
+            <p className="mt-5">
+              Currently seeking Fall 2025 opportunities for both internship and
+              full time roles. Feel free to reach out to me on Linkedin. Looking
+              to grad in December 2026.
             </p>
           </section>
 
