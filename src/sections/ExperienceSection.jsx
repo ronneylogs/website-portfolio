@@ -8,7 +8,7 @@ export default function ExperienceSection() {
     {
       role: "Software Engineer",
       company: "Dialpad",
-      date: "Jan 2025 – Present",
+      date: "Jan – Sep 2025",
       logo: dialpadImage,
       link: "https://www.linkedin.com/company/dialpad",
       bullets: [
@@ -20,7 +20,7 @@ export default function ExperienceSection() {
     {
       role: "VP Operations and Senior Developer",
       company: "SFU Blueprint",
-      date: "July 2023 – Present",
+      date: "Jul 2023 – Present",
       logo: blueprintImage,
       link: "https://www.linkedin.com/company/sfu-blueprint",
       bullets: [
@@ -41,7 +41,7 @@ export default function ExperienceSection() {
     {
       role: "Software Engineer",
       company: "UBC Network & Infrastructure",
-      date: "January 2024 – August 2024",
+      date: "Jan – Aug 2024",
       logo: ubcImage,
       link: "https://www.linkedin.com/school/universityofbc",
       bullets: [

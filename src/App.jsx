@@ -97,7 +97,7 @@ function App() {
             </p>
 
             <p className="mt-5">
-              Currently seeking <span className="font-bold">Fall 2025</span>{" "}
+              Currently seeking <span className="font-bold">May 2026</span>{" "}
               software engineering opportunities for both internship and full
               time roles. Feel free to reach out to me on{" "}
               <a
