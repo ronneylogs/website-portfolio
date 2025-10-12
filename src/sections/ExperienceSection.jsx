@@ -13,7 +13,7 @@ export default function ExperienceSection() {
       link: "https://www.linkedin.com/company/dialpad",
       bullets: [
         "Built real-time KPI dashboards to monitor contact center performance",
-        "Implemented tracking tools to bring Agentic AI support projects to end users",
+        "Implemented tracking tools to bring Agentic AI projects to end users",
         "Used Datadog to identify API bottlenecks, then improved performance through strategic caching and data-fetching optimizations",
       ],
     },
