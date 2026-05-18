@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 import busImage from "/assets/other/bus.jpg";
 import vanImage from "/assets/other/van.jpg";
 import walleImage from "/assets/other/walle.jpg";
@@ -55,7 +55,7 @@ export default function BeyondCodeSection() {
             photos from my collection.
           </p>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <motion.div
+            <Motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -66,8 +66,8 @@ export default function BeyondCodeSection() {
                 alt="LEGO Bus"
                 className="w-full h-64 object-cover rounded-lg shadow transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               />
-            </motion.div>
-            <motion.div
+            </Motion.div>
+            <Motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -78,8 +78,8 @@ export default function BeyondCodeSection() {
                 alt="LEGO Wall-E"
                 className="w-full h-64 object-cover rounded-lg shadow transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               />
-            </motion.div>
-            <motion.div
+            </Motion.div>
+            <Motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -90,7 +90,7 @@ export default function BeyondCodeSection() {
                 alt="LEGO Van"
                 className="w-full h-64 object-cover rounded-lg shadow transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               />
-            </motion.div>
+            </Motion.div>
           </div>
         </div>
       </div>

@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 // import "./App.css";
 import "./index.css";
 import { TypeAnimation } from "react-type-animation";
@@ -10,7 +7,7 @@ import BackToTopButton from "./components/BackToTopButton";
 import BeyondCodeSection from "./sections/BeyondTheCodeSection";
 import ExperienceSection from "./sections/ExperienceSection";
 import ProjectsSection from "./sections/ProjectSection";
-import { motion } from "framer-motion";
+import { motion as Motion } from "framer-motion";
 import pfp from "/assets/ronney.JPG";
 
 function App() {
@@ -52,7 +49,7 @@ function App() {
               About Me
             </a> */}
           </section>
-          <motion.div
+          <Motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -63,7 +60,7 @@ function App() {
               alt="Ronney Lok"
               className="w-full h-full object-cover"
             />
-          </motion.div>
+          </Motion.div>
           {/* About */}
           <section id="about" className="px-6 py-16 max-w-3xl mx-auto">
             <h3 className="text-3xl font-bold mb-4">About</h3>
@@ -83,30 +80,31 @@ function App() {
               </a>
             </p>
             <p>
-              Now that that's out of the way 😊, I'm a 4th-year Computer Science
-              student at Simon Fraser University with hands-on experience in
-              Python, JavaScript, React, Vue, Node.js, and C/C++. I enjoy
-              building clean, accessible interfaces and scalable backend
-              systems, but what drives me most is creating things that people
-              can actually{" "}
-              <ConfettiButton
-                className="text-indigo-600 underline hover:font-bold hover:underline-offset-2"
-                label="🎉 Interact"
-              />{" "}
-              with and enjoy using.
+              Hands-on experience in Python, JavaScript, React, Vue, Node.js,
+              and C/C++. I enjoy building clean, accessible interfaces and
+              scalable backend systems. I have a strong passion for learning new
+              technologies and applying them to create impactful solutions. I’m
+              always eager to collaborate on projects that make a positive
+              difference in the world.
             </p>
 
             <p className="mt-5">
-              Currently seeking <span className="font-bold">May 2026</span>{" "}
-              software engineering opportunities for both internship and full
-              time roles. Feel free to reach out to me on{" "}
+              I started full-time as a Software Engineer at{" "}
+              <a
+                href="https://www.dialpad.com/"
+                className="text-blue-600 underline hover:font-bold hover:underline-offset-2"
+              >
+                Dialpad
+              </a>{" "}
+              in <span className="font-bold">May 2026</span>. Feel free to reach
+              out to me on{" "}
               <a
                 href="https://www.linkedin.com/in/ronneylok"
                 className="text-blue-600 underline hover:font-bold hover:underline-offset-2"
               >
                 Linkedin
               </a>
-              . Looking to grad in December 2026.
+              .
             </p>
           </section>
 
